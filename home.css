@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+@font-face {
+    font-family: "D&D-Font";
+    src: url(fontes/Dalelands\ Uncial.otf);
+}
 
 
 .nav_bar{
     display: flex;
     height: 100px;
     background-color: #F59402;
+    align-items: center;
+    justify-content: space-between;
     
 
+}
+.nav_bar .titulo{
+    display: flex;
+    
 }
 
 .nav_bar img{
@@ -18,11 +28,10 @@
     display: flex;
     padding-left: 20px;
     padding-top: 10px;
-    font-family: "Metamorphous", serif;
+    font-family: "D&D-Font"
 }
 
 .nav_bar p {
-    margin-left: ;
     font-family: "Metamorphous", serif;
 }
 /*Nav-bar*/
