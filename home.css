@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 @font-face {
     font-family: "D&D-Font";
     src: url(fontes/Dalelands\ Uncial.otf);
@@ -37,6 +39,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 20px;
     width: 300px;
     margin-right: 100px;
 
@@ -49,6 +52,7 @@ body{
 
 .nav_bar p {
     font-family: "D&D-Font", serif;
+    
 }
 
 
@@ -120,6 +124,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:center;
+    
     
 }
 
