@@ -14,7 +14,13 @@ body {
 
 body {
     background-color: #1D394F;
-    background-image: url(imagens/CadastroFundo.jpg);
+    background-image: url(imagens/cadastrofundos.jpg);
+    width: 1920px;
+    height: 1080px;
+}
+
+body p{
+    color: white;
 }
 
 /*Nav-bar*/
@@ -82,14 +88,14 @@ body {
     height: 100vh;
 
     justify-content: center;
-    background-image: url('imagens/cadastrofundos.jpg');
+    background-image: url('imagens/FUNDOCADASTRO.png');
     background-size: cover;
     background-position: center;
 
 }
 
 .tela-preta {
-    background-image: url(imagens/FUNDOCADASTRO.png);
+    
     background-repeat: 0;
     background-size: cover;
     
